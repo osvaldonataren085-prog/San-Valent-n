@@ -20,7 +20,7 @@ function updateTime() {
     const timeEl = document.getElementById("time");
     if (timeEl) {
         timeEl.textContent =
-            `${days} días ${hours} horas ${minutes} minutos ${seconds} segundos`;
+            `${days} días ${hours} horas ${minutes} minutos`;
     }
 }
 
@@ -114,5 +114,6 @@ for (let i = 0; i < FALLING_TOTAL; i++) {
 
     document.body.appendChild(fall);
 }
+
 
 
