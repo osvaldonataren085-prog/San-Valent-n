@@ -15,7 +15,7 @@ function updateTime() {
     diff %= (1000 * 60 * 60);
 
     const minutes = Math.floor(diff / (1000 * 60));
-    const seconds = Math.floor(diff / 1000);
+   
 
     const timeEl = document.getElementById("time");
     if (timeEl) {
@@ -114,4 +114,5 @@ for (let i = 0; i < FALLING_TOTAL; i++) {
 
     document.body.appendChild(fall);
 }
+
 
