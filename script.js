@@ -2,7 +2,7 @@
    CONTADOR DE TIEMPO
 ================================ */
 
-const startDate = new Date("2024-12-14T04:00:00");
+const startDate = new Date("2024-12-14T04:00");
 
 function updateTime() {
     const now = new Date();
@@ -114,3 +114,4 @@ for (let i = 0; i < FALLING_TOTAL; i++) {
 
     document.body.appendChild(fall);
 }
+
